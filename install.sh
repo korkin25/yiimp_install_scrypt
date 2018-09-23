@@ -303,7 +303,7 @@ default         0;
     sudo cp -r $HOME/yiimp/blocknotify/blocknotify /usr/bin/
     sudo cp -r $HOME/yiimp/blocknotify/blocknotify /var/stratum/
     sudo mkdir -p /etc/yiimp
-    sudo mkdir -p /$HOME/backup/
+    sudo mkdir -p $HOME/backup/
     #fixing yiimp
     sed -i "s|ROOTDIR=/data/yiimp|ROOTDIR=/var|g" /bin/yiimp
     #fixing run.sh
